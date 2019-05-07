@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
-const { Linter, Configuration } = require('tslint');
+const { Linter, Configuration } = require('tslint/lib/index');
 
 const program = Linter.createProgram(path.join(__dirname, 'tsconfig.json'));
 
@@ -21,7 +21,7 @@ const rulesDir = path.join(__dirname, './rules');
 
 const rules = fs.readdirSync(rulesDir);
 
-describe('tslint-config-yoshi-base', () => {
+describe('tslint-config-yoshi', () => {
   rules.forEach(ruleName => {
     const find = pattern => {
       return glob.sync(path.join(rulesDir, ruleName, pattern));
