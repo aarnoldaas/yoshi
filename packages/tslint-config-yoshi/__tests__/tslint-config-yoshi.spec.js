@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
-const { Linter, Configuration } = require('tslint/lib/index');
+const { Linter, Configuration } = require('tslint');
 
 const program = Linter.createProgram(path.join(__dirname, 'tsconfig.json'));
 
