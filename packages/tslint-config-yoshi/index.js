@@ -22,7 +22,7 @@ module.exports = addJsRules({
     // https://github.com/wix/wix-ui/tree/master/packages/tslint-plugin-wix-style-react
     'no-full-wsr-lib': true,
 
-    //https://github.com/Gelio/tslint-react-hooks
+    // https://github.com/Gelio/tslint-react-hooks
     'react-hooks-nesting': true,
   },
 });
