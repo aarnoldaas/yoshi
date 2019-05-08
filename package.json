@@ -86,6 +86,7 @@
     "strip-ansi": "^4.0.0",
     "tempy": "^0.2.1",
     "terminate": "^2.1.0",
+    "tslint": "^5.16.0",
     "verdaccio": "^3.8.3",
     "wait-port": "^0.2.2"
   },
