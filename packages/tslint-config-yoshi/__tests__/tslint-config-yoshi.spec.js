@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved, import/no-extraneous-dependencies */
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
